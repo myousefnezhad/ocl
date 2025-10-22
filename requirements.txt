@@ -1,0 +1,10 @@
+# requirements.txt — OCL (Orthogonal Contrastive Learning), Python 3.11
+
+# Core (used by model/data/utils)
+torch==2.6.*              # install the right CUDA/CPU build for your machine
+numpy==1.26.4
+
+# Helpful (printing/stats/plots/progress) — safe to keep
+scipy==1.13.1
+matplotlib==3.9.2
+tqdm==4.66.0
