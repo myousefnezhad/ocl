@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# .gitignore — OCL (Orthogonal Contrastive Learning)
+# -----------------------------------------------------------------------------
+
+# Ignore Python cache folders recursively
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary, logs, notebooks
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and packaging
+build/
+dist/
+*.egg-info/
+
+# Checkpoints, model weights, and training artifacts
+ocl/model.pth
+**/*.pth
+**/*.pt
+**/*.ckpt
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Backup and swap files
+*.bak
+*.swp
+*.swo
